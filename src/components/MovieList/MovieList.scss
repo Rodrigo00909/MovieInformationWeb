@@ -1,0 +1,31 @@
+.movie-list {
+    width: 80%;
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+    border-color: rgb(0, 21, 41) !important;
+
+    .ant-list-header {
+        background-color: rgb(0, 21, 41);
+
+        h2 {
+            text-align: center;
+            margin: 0;
+            color: #fff;
+        }
+    }
+
+    .ant-list-items {
+        height: 500px;
+        overflow: scroll;
+    }
+
+    &__ movie {
+        .ant-list-item-meta {
+            align-items: center;
+        }
+
+        .ant-list-item-meta-title {
+            margin: 0;
+        }
+    }
+}
