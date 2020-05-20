@@ -4,6 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import 'antd/dist/antd.css';
+import 'rc-pagination/assets/index.css';
 import './index.css';
 
 //<React.StrictMode>

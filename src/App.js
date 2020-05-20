@@ -3,20 +3,21 @@ import {Layout} from 'antd';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import MenuTop from './components/MenuTop';
 
+
 // Pages
 import Home from './pages/home.jsx';
 import NewMovies from './pages/new-movies.jsx';
 import Popular from './pages/popular.jsx';
-import Search from './pages/search.jsx';
-import Movie from './pages/movie.jsx';
-import Error404 from './pages/error404.jsx';
+import Search from './pages/search';
+import Movie from './pages/movie';
+import Error404 from './pages/error404';
 
 export default function App() {
   const { Header , Content } = Layout;
   return (
     <Layout>
       <Router>
-       <Header>
+       <Header style={{zIndex: 1}}>
          <MenuTop></MenuTop>
        </Header>
 

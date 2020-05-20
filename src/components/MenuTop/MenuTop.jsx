@@ -13,16 +13,16 @@ export default function MenuTop() {
             </div>
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]} style={{lineHeight: "64px"}}>
                 <Menu.Item key="1">
-                    <Link to="/">Home</Link>
+                    <Link to="/">Inicio</Link>
                 </Menu.Item>
                 <Menu.Item key="2">
                     <Link to="/new-movies">Últimos Lanzamientos</Link>
                 </Menu.Item>
                 <Menu.Item key="3">
-                    <Link to="/popular">Películas Populares</Link>
+                    <Link to="/popular">Populares</Link>
                 </Menu.Item>
                 <Menu.Item key="4">
-                    <Link to="/search">Buscador</Link>
+                    <Link to="/search">Search</Link>
                 </Menu.Item>
             </Menu>
         </div>
