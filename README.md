@@ -1,3 +1,9 @@
+Esta App está construida con ReactJS. Consume la Api de TheMovieDB para mostrar información sobre sus peliculas y comics en una interfaz muy cómoda para el usuario.
+
+Para los desarrolladores: yarn install - Para instalar todas las dependencias.
+
+------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
